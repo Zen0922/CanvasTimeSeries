@@ -1,0 +1,16 @@
+
+
+div#CanvasTimeSeriesArea{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Canvas Element */
+canvas#CanvasTimeSeries{
+    margin: 20px;
+    width: Calc(100% - 40px);
+    height: Calc(100% - 40px);
+    background-color: #FFF;
+}

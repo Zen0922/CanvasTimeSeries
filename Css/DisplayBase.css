@@ -1,0 +1,36 @@
+*{
+    font-family: Verdana;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    overflow: hidden;
+}
+
+h1#InfomationSubject{
+    margin: 0;
+    padding: 0;
+    
+    background: linear-gradient(#88F, #00F);
+    
+    line-height: 40px;
+    text-align: center;
+
+    font-size: 16pt;
+    font-weight: bold;
+    color: #FFF;
+}
+
+div#InfomationDisplayArea{
+    width: 100%;
+    height: Calc( 100% - 40px );
+    margin: 0;
+    padding: 0;
+    background-color: #EEE;
+}
